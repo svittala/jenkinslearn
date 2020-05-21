@@ -1,5 +1,0 @@
-<apex:page showheader="false" sidebar="false" docType="html-5.0" title="Hello Mobile">
-    <h1>
-        Hello mobile World 
-    </h1>
-</apex:page>
