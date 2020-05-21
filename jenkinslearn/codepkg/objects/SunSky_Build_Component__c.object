@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Build Components include all applicable capabilities and build elements defined for a solution.  Requirements may have several build components related to them.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Build_Component_Description__c</fullName>
+        <description>The description of the component to build for the related requirement.</description>
+        <externalId>false</externalId>
+        <label>Build Component Description</label>
+        <length>20000</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Build_Component_Status__c</fullName>
+        <description>Track the progress of completing the build component from definition to deployment.</description>
+        <externalId>false</externalId>
+        <label>Build Component Status</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <color>#999999</color>
+                    <default>true</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Defined/Designed</fullName>
+                    <color>#FF99FF</color>
+                    <default>false</default>
+                    <label>Defined/Designed</label>
+                </value>
+                <value>
+                    <fullName>Build In Progress</fullName>
+                    <color>#CC66CC</color>
+                    <default>false</default>
+                    <label>Build In Progress</label>
+                </value>
+                <value>
+                    <fullName>Ready For Testing</fullName>
+                    <color>#993399</color>
+                    <default>false</default>
+                    <label>Ready For Testing</label>
+                </value>
+                <value>
+                    <fullName>Unit Testing</fullName>
+                    <color>#FFFF66</color>
+                    <default>false</default>
+                    <label>Unit Testing</label>
+                </value>
+                <value>
+                    <fullName>User Acceptance Testing</fullName>
+                    <color>#FFCC66</color>
+                    <default>false</default>
+                    <label>User Acceptance Testing</label>
+                </value>
+                <value>
+                    <fullName>Testing Completed</fullName>
+                    <color>#33FF33</color>
+                    <default>false</default>
+                    <label>Testing Completed</label>
+                </value>
+                <value>
+                    <fullName>Ready For Deployment</fullName>
+                    <color>#33CC00</color>
+                    <default>false</default>
+                    <label>Ready For Deployment</label>
+                </value>
+                <value>
+                    <fullName>Scheduled For Release</fullName>
+                    <color>#419249</color>
+                    <default>false</default>
+                    <label>Scheduled For Release</label>
+                </value>
+                <value>
+                    <fullName>Deployed</fullName>
+                    <color>#000000</color>
+                    <default>false</default>
+                    <label>Deployed</label>
+                </value>
+                <value>
+                    <fullName>Deferred</fullName>
+                    <color>#FF0000</color>
+                    <default>false</default>
+                    <label>Deferred</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Build_Component_Type__c</fullName>
+        <description>The type of component to build related to the requirement.</description>
+        <externalId>false</externalId>
+        <label>Build Component Type</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>3rd Party Products</fullName>
+                    <default>false</default>
+                    <label>3rd Party Products</label>
+                </value>
+                <value>
+                    <fullName>Account</fullName>
+                    <default>false</default>
+                    <label>Account</label>
+                </value>
+                <value>
+                    <fullName>Activity</fullName>
+                    <default>false</default>
+                    <label>Activity</label>
+                </value>
+                <value>
+                    <fullName>Administration</fullName>
+                    <default>false</default>
+                    <label>Administration</label>
+                </value>
+                <value>
+                    <fullName>Advanced Currency</fullName>
+                    <default>false</default>
+                    <label>Advanced Currency</label>
+                </value>
+                <value>
+                    <fullName>Apex Controller</fullName>
+                    <default>false</default>
+                    <label>Apex Controller</label>
+                </value>
+                <value>
+                    <fullName>Apex Test Class</fullName>
+                    <default>false</default>
+                    <label>Apex Test Class</label>
+                </value>
+                <value>
+                    <fullName>Apex Trigger</fullName>
+                    <default>false</default>
+                    <label>Apex Trigger</label>
+                </value>
+                <value>
+                    <fullName>Approvals</fullName>
+                    <default>false</default>
+                    <label>Approvals</label>
+                </value>
+                <value>
+                    <fullName>Articles</fullName>
+                    <default>false</default>
+                    <label>Articles</label>
+                </value>
+                <value>
+                    <fullName>Assets</fullName>
+                    <default>false</default>
+                    <label>Assets</label>
+                </value>
+                <value>
+                    <fullName>Assignment Rule</fullName>
+                    <default>false</default>
+                    <label>Assignment Rule</label>
+                </value>
+                <value>
+                    <fullName>Campaign</fullName>
+                    <default>false</default>
+                    <label>Campaign</label>
+                </value>
+                <value>
+                    <fullName>Cases</fullName>
+                    <default>false</default>
+                    <label>Cases</label>
+                </value>
+                <value>
+                    <fullName>Case Teams</fullName>
+                    <default>false</default>
+                    <label>Case Teams</label>
+                </value>
+                <value>
+                    <fullName>Chatter Group</fullName>
+                    <default>false</default>
+                    <label>Chatter Group</label>
+                </value>
+                <value>
+                    <fullName>Communication Templates</fullName>
+                    <default>false</default>
+                    <label>Communication Templates</label>
+                </value>
+                <value>
+                    <fullName>Communities</fullName>
+                    <default>false</default>
+                    <label>Communities</label>
+                </value>
+                <value>
+                    <fullName>Connected Apps</fullName>
+                    <default>false</default>
+                    <label>Connected Apps</label>
+                </value>
+                <value>
+                    <fullName>Console</fullName>
+                    <default>false</default>
+                    <label>Console</label>
+                </value>
+                <value>
+                    <fullName>Contact</fullName>
+                    <default>false</default>
+                    <label>Contact</label>
+                </value>
+                <value>
+                    <fullName>Content</fullName>
+                    <default>false</default>
+                    <label>Content</label>
+                </value>
+                <value>
+                    <fullName>Contracts</fullName>
+                    <default>false</default>
+                    <label>Contracts</label>
+                </value>
+                <value>
+                    <fullName>CTI Integration</fullName>
+                    <default>false</default>
+                    <label>CTI Integration</label>
+                </value>
+                <value>
+                    <fullName>Customer Portal</fullName>
+                    <default>false</default>
+                    <label>Customer Portal</label>
+                </value>
+                <value>
+                    <fullName>Custom Object</fullName>
+                    <default>false</default>
+                    <label>Custom Object</label>
+                </value>
+                <value>
+                    <fullName>Custom Report Types</fullName>
+                    <default>false</default>
+                    <label>Custom Report Types</label>
+                </value>
+                <value>
+                    <fullName>Custom Setting</fullName>
+                    <default>false</default>
+                    <label>Custom Setting</label>
+                </value>
+                <value>
+                    <fullName>Custom Tab</fullName>
+                    <default>false</default>
+                    <label>Custom Tab</label>
+                </value>
+                <value>
+                    <fullName>Data.com</fullName>
+                    <default>false</default>
+                    <label>Data.com</label>
+                </value>
+                <value>
+                    <fullName>Desktop Integration</fullName>
+                    <default>false</default>
+                    <label>Desktop Integration</label>
+                </value>
+                <value>
+                    <fullName>Documents</fullName>
+                    <default>false</default>
+                    <label>Documents</label>
+                </value>
+                <value>
+                    <fullName>Email Integration</fullName>
+                    <default>false</default>
+                    <label>Email Integration</label>
+                </value>
+                <value>
+                    <fullName>Email to Case</fullName>
+                    <default>false</default>
+                    <label>Email to Case</label>
+                </value>
+                <value>
+                    <fullName>Entitlement</fullName>
+                    <default>false</default>
+                    <label>Entitlement</label>
+                </value>
+                <value>
+                    <fullName>Escalation Rules</fullName>
+                    <default>false</default>
+                    <label>Escalation Rules</label>
+                </value>
+                <value>
+                    <fullName>Forecasting</fullName>
+                    <default>false</default>
+                    <label>Forecasting</label>
+                </value>
+                <value>
+                    <fullName>Global Actions</fullName>
+                    <default>false</default>
+                    <label>Global Actions</label>
+                </value>
+                <value>
+                    <fullName>Ideas</fullName>
+                    <default>false</default>
+                    <label>Ideas</label>
+                </value>
+                <value>
+                    <fullName>Integration</fullName>
+                    <default>false</default>
+                    <label>Integration</label>
+                </value>
+                <value>
+                    <fullName>Knowledge Base</fullName>
+                    <default>false</default>
+                    <label>Knowledge Base</label>
+                </value>
+                <value>
+                    <fullName>Lead</fullName>
+                    <default>false</default>
+                    <label>Lead</label>
+                </value>
+                <value>
+                    <fullName>Live Agent</fullName>
+                    <default>false</default>
+                    <label>Live Agent</label>
+                </value>
+                <value>
+                    <fullName>Marketing Integration</fullName>
+                    <default>false</default>
+                    <label>Marketing Integration</label>
+                </value>
+                <value>
+                    <fullName>Mobile</fullName>
+                    <default>false</default>
+                    <label>Mobile</label>
+                </value>
+                <value>
+                    <fullName>Multi-currency</fullName>
+                    <default>false</default>
+                    <label>Multi-currency</label>
+                </value>
+                <value>
+                    <fullName>Notes</fullName>
+                    <default>false</default>
+                    <label>Notes</label>
+                </value>
+                <value>
+                    <fullName>Opportunity</fullName>
+                    <default>false</default>
+                    <label>Opportunity</label>
+                </value>
+                <value>
+                    <fullName>Opportunity Line Item</fullName>
+                    <default>false</default>
+                    <label>Opportunity Line Item</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Page Layout</fullName>
+                    <default>false</default>
+                    <label>Page Layout</label>
+                </value>
+                <value>
+                    <fullName>Permission Sets</fullName>
+                    <default>false</default>
+                    <label>Permission Sets</label>
+                </value>
+                <value>
+                    <fullName>Pricebook</fullName>
+                    <default>false</default>
+                    <label>Pricebook</label>
+                </value>
+                <value>
+                    <fullName>Product</fullName>
+                    <default>false</default>
+                    <label>Product</label>
+                </value>
+                <value>
+                    <fullName>Publishing</fullName>
+                    <default>false</default>
+                    <label>Publishing</label>
+                </value>
+                <value>
+                    <fullName>Queues</fullName>
+                    <default>false</default>
+                    <label>Queues</label>
+                </value>
+                <value>
+                    <fullName>Quote</fullName>
+                    <default>false</default>
+                    <label>Quote</label>
+                </value>
+                <value>
+                    <fullName>Quote Line Item</fullName>
+                    <default>false</default>
+                    <label>Quote Line Item</label>
+                </value>
+                <value>
+                    <fullName>Reporting/Dashboards</fullName>
+                    <default>false</default>
+                    <label>Reporting/Dashboards</label>
+                </value>
+                <value>
+                    <fullName>Sales</fullName>
+                    <default>false</default>
+                    <label>Sales</label>
+                </value>
+                <value>
+                    <fullName>Sales Teams</fullName>
+                    <default>false</default>
+                    <label>Sales Teams</label>
+                </value>
+                <value>
+                    <fullName>Security</fullName>
+                    <default>false</default>
+                    <label>Security</label>
+                </value>
+                <value>
+                    <fullName>Single Sign On</fullName>
+                    <default>false</default>
+                    <label>Single Sign On</label>
+                </value>
+                <value>
+                    <fullName>Site.com</fullName>
+                    <default>false</default>
+                    <label>Site.com</label>
+                </value>
+                <value>
+                    <fullName>Social</fullName>
+                    <default>false</default>
+                    <label>Social</label>
+                </value>
+                <value>
+                    <fullName>Solutions</fullName>
+                    <default>false</default>
+                    <label>Solutions</label>
+                </value>
+                <value>
+                    <fullName>System Settings</fullName>
+                    <default>false</default>
+                    <label>System Settings</label>
+                </value>
+                <value>
+                    <fullName>Tags</fullName>
+                    <default>false</default>
+                    <label>Tags</label>
+                </value>
+                <value>
+                    <fullName>Territories</fullName>
+                    <default>false</default>
+                    <label>Territories</label>
+                </value>
+                <value>
+                    <fullName>Translation Workbench</fullName>
+                    <default>false</default>
+                    <label>Translation Workbench</label>
+                </value>
+                <value>
+                    <fullName>User</fullName>
+                    <default>false</default>
+                    <label>User</label>
+                </value>
+                <value>
+                    <fullName>VF Page</fullName>
+                    <default>false</default>
+                    <label>VF Page</label>
+                </value>
+                <value>
+                    <fullName>Views</fullName>
+                    <default>false</default>
+                    <label>Views</label>
+                </value>
+                <value>
+                    <fullName>Web To Case</fullName>
+                    <default>false</default>
+                    <label>Web To Case</label>
+                </value>
+                <value>
+                    <fullName>Web to Chat</fullName>
+                    <default>false</default>
+                    <label>Web to Chat</label>
+                </value>
+                <value>
+                    <fullName>Workflow</fullName>
+                    <default>false</default>
+                    <label>Workflow</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Est_Hours_Functional__c</fullName>
+        <description>Estimated functional hours to complete the build component.</description>
+        <externalId>false</externalId>
+        <label>Est Hours- Functional</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Est_Hours_Technical__c</fullName>
+        <description>Estimated technical hours to complete the build component.</description>
+        <externalId>false</externalId>
+        <label>Est Hours- Technical</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Part_of_Release__c</fullName>
+        <description>Checks to see if this Build Component is associated with a Release.  This field is used for certain reports, and is not on the page layout.</description>
+        <externalId>false</externalId>
+        <formula>IF( ISBLANK( SunSky_Release_Mgmt__c ) , &quot;No&quot;, &quot;Yes&quot;)</formula>
+        <label>Part of Release?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SunSky_Release_Mgmt__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>The release the build component will be deployed in.</description>
+        <externalId>false</externalId>
+        <label>SunSky Release Mgmt</label>
+        <referenceTo>SunSky_Release__c</referenceTo>
+        <relationshipName>SunSky_Build_Components</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SunSky_Requirement__c</fullName>
+        <description>The requirement the build component is related to.</description>
+        <externalId>false</externalId>
+        <label>SunSky Requirement</label>
+        <referenceTo>SunSky_Requirement__c</referenceTo>
+        <relationshipName>SunSky_Build_Components</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Total_Defects__c</fullName>
+        <description>Total of all defects reported related to the build component.</description>
+        <externalId>false</externalId>
+        <label>Total Defects</label>
+        <summaryForeignKey>SunSky_Defects__c.SunSky_Build_Component__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <label>Tool Build Component</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>SunSky_Requirement__c</columns>
+        <columns>Build_Component_Description__c</columns>
+        <columns>Build_Component_Status__c</columns>
+        <columns>Build_Component_Type__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Est_Hours_Functional__c</columns>
+        <columns>Est_Hours_Technical__c</columns>
+        <columns>Total_Defects__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Ready_For_Deployment</fullName>
+        <columns>NAME</columns>
+        <columns>SunSky_Requirement__c</columns>
+        <columns>Build_Component_Description__c</columns>
+        <columns>Build_Component_Status__c</columns>
+        <columns>Build_Component_Type__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Est_Hours_Functional__c</columns>
+        <columns>Est_Hours_Technical__c</columns>
+        <columns>Total_Defects__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Build_Component_Status__c</field>
+            <operation>equals</operation>
+            <value>Ready For Deployment</value>
+        </filters>
+        <label>Ready For Deployment</label>
+    </listViews>
+    <nameField>
+        <displayFormat>BLD-{000000}</displayFormat>
+        <label>Tool Build Component Name</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Tool Build Components</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Build_Component_Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Build_Component_Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Build_Component_Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SunSky_Requirement__c</customTabListAdditionalFields>
+        <listViewButtons>Ready_to_release</listViewButtons>
+        <listViewButtons>Ready_for_New_Release</listViewButtons>
+        <lookupDialogsAdditionalFields>Build_Component_Description__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Build_Component_Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Build_Component_Status__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Build_Component_Status__c</searchFilterFields>
+        <searchFilterFields>Build_Component_Type__c</searchFilterFields>
+        <searchFilterFields>SunSky_Requirement__c</searchFilterFields>
+        <searchResultsAdditionalFields>Build_Component_Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Build_Component_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Build_Component_Status__c</searchResultsAdditionalFields>
+        <searchResultsCustomButtons>Ready_to_release</searchResultsCustomButtons>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Ready_for_New_Release</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Add To New Release</masterLabel>
+        <openType>sidebar</openType>
+        <page>SunSky_NewReleasewithBuildComp</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>Ready_to_release</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Add To Existing Release</masterLabel>
+        <openType>sidebar</openType>
+        <page>SunSky_BuildComponent</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+</CustomObject>
