@@ -1,0 +1,18 @@
+<apex:page standardController="SunSky_Build_Component__c" extensions="SunSkyBuildComponentController" recordSetVar="SunSky_Build_Component__c" action="{!selectbuildcomp}">
+    <apex:form >
+        <apex:pageMessages ></apex:pageMessages>
+  
+        <apex:outputpanel rendered="{!IF(selectedcomponent.size>0 && isReady=false,false,true)}">
+            <apex:commandLink value="Back to List" action="{!Cancel}" />
+        </apex:outputpanel>
+      
+        <apex:pageblock title="Select a Release" rendered="{!IF(selectedcomponent.size>0 && isReady!=true,true,false)}">
+     
+            <b> <apex:outputLabel value="Release: " /> </b> <apex:inputField value="{!comp.SunSky_Release_Mgmt__c}" label="Release: "/>
+            <apex:pageblockButtons >
+                <apex:commandButton value="Save" action="{!updatebuildComp}" />
+                <apex:commandButton value="Cancel" action="{!Cancel}" />
+            </apex:pageblockButtons>
+       </apex:pageBlock>
+    </apex:form>    
+</apex:page>
