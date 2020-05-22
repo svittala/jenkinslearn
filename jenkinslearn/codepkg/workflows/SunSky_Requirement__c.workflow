@@ -27,7 +27,7 @@
             <operation>notContain</operation>
             <value>Out-of-Scope (deferred),In-Scope (Manual),Deleted</value>
         </criteriaItems>
-        <description>set out of scope for large requirements</description>
+        <description>set out of scope for large requirements V11</description>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
 </Workflow>
